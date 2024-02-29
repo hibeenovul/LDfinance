@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  height: max-content;
+}
+.Navlink_1 {
+  position: fixed;
+  left: 8.6rem;
+  top: 1rem;
+  text-decoration: none;
+  font: 1em sans-serif;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  font-weight: bold;
+  z-index: 3;
+}
+.Navlink_2 {
+  position: fixed;
+  left: 22rem;
+  top: 1rem;
+  text-decoration: none;
+  font: 1em sans-serif;
+  color: black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: small;
+  font-weight: bold;
+  z-index: 3;
+}
+.Nav {
+  display: block;
+  height: 40px;
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-color: rgb(244, 252, 252);
+}
+.face {
+  display: block;
+  height: 40rem;
+  width: 100%;
+  position: relative;
+  top: 0.1rem;
+  background-color: rgb(218, 245, 245);
+}
+.grey {
+  position: fixed;
+  display: inline;
+  margin-left: 8rem;
+  margin-top: 1rem;
+  z-index: 3;
+}
+.linkproduct {
+  position: fixed;
+  left: 18rem;
+  top: 4rem;
+  text-decoration: none;
+  font: 1em sans-serif;
+  color: black;
+  z-index: 3;
+}
+
+.linkblog {
+  position: fixed;
+  left: 27rem;
+  top: 4rem;
+  text-decoration: none;
+  font: 1em sans-serif;
+  color: black;
+  z-index: 3;
+}
+
+.linkcenter {
+  position: fixed;
+  left: 33em;
+  top: 4rem;
+  text-decoration: none;
+  font: 1em sans-serif;
+  color: black;
+  z-index: 3;
+}
+.loginbtn {
+  position: fixed;
+  left: 58rem;
+  top: 4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: rgb(217, 233, 235);
+  cursor: pointer;
+  height: 2.5em;
+  width: 5rem;
+  z-index: 3;
+}
+.loginbtn:hover {
+  background-color: rgb(225, 216, 216);
+}
+.getstartedbtn {
+  position: fixed;
+  left: 65rem;
+  top: 4rem;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  outline: none;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  cursor: pointer;
+  height: 3.5em;
+  width: 10rem;
+  z-index: 3;
+}
+.getstartedbtn:hover {
+  background-color: rgb(92, 92, 232);
+}
+.text {
+  position: absolute;
+  left: 8rem;
+  top: 10rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+
+  font-size: 4em;
+}
+.decs {
+  position: absolute;
+  left: 8rem;
+  top: 25rem;
+  font-size: 1.3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: rgb(129, 119, 119);
+}
+.astore {
+  height: 7rem;
+  width: 7rem;
+  position: relative;
+  top: 30rem;
+  left: 8rem;
+}
+.pstore {
+  height: 7rem;
+  width: 7rem;
+  position: relative;
+  top: 30rem;
+  left: 8rem;
+}
+.next_face {
+  display: block;
+  height: 40rem;
+  width: 100%;
+
+  background-color: rgb(244, 249, 250);
+}
+.send {
+  font-family: sans-serif;
+  position: relative;
+  top: 1rem;
+  left: 8rem;
+  font-size: 2.8rem;
+}
+.fast {
+  position: relative;
+  left: 8rem;
+  font-size: 1.5rem;
+  top: 5rem;
+}
+.enjoy {
+  position: relative;
+  left: 8rem;
+  font-size: 1rem;
+  top: 6rem;
+}
+.trans {
+  position: relative;
+  left: 8rem;
+  top: 8rem;
+  font-size: 1.5rem;
+}
+.follow {
+  position: relative;
+  left: 8rem;
+  top: 9rem;
+  font-size: 1rem;
+}
+.tbest {
+  position: relative;
+  left: 8rem;
+  top: 11rem;
+  font-size: 1.5rem;
+}
+.with {
+  position: relative;
+  left: 8rem;
+  top: 12rem;
+  font-size: 1rem;
+}
+.third_face {
+  display: block;
+  height: 40rem;
+  width: 100%;
+
+  background-color: whitesmoke;
+}
+.begin {
+  font-family: sans-serif;
+  position: relative;
+  top: 4rem;
+  left: 8rem;
+  font-size: 2.8rem;
+}
+.open {
+  position: relative;
+  left: 8rem;
+  top: 5rem;
+  font-size: 1.3em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+}
+.three {
+  display: grid;
+  grid-template-columns: repeat(3, 20rem);
+  grid-template-rows: repeat(1, 10rem);
+  position: relative;
+  top: 10rem;
+  margin-left: 8rem;
+}
+.circle {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background-color: rgb(93, 0, 255);
+  color: white;
+  display: block;
+  text-align: center;
+}
+strong {
+  color: #000;
+  font-weight: 700;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.gstarted {
+  position: relative;
+  left: 8rem;
+  top: 15rem;
+  padding: 1rem;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  border-radius: 9px;
+}
+.forth_face {
+  display: block;
+  height: 40rem;
+  width: 100%;
+
+  background-color: rgb(208, 199, 199);
+}
+
+.expertly {
+  position: relative;
+  left: 8rem;
+  top: 5rem;
+  font-size: 1rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.space {
+  justify-content: space-around;
+}
+.fifth_face {
+  display: block;
+  height: 30rem;
+  width: 100%;
+
+  color: #fff;
+  background-color: black;
+}
+
+.get_digital {
+  position: relative;
+  left: 8rem;
+  top: 10rem;
+
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 3rem;
+}
+.astore_2 {
+  height: 7rem;
+  width: 7rem;
+  position: relative;
+  top: 12rem;
+  left: 8rem;
+}
+.pstore_2 {
+  height: 7rem;
+  width: 7rem;
+  position: relative;
+  top: 12rem;
+  left: 8rem;
+}
+.mon {
+  height: 25rem;
+  float: right;
+  margin-right: 20rem;
+  margin-top: -10.5rem;
+}
